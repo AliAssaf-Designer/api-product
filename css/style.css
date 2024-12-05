@@ -131,7 +131,7 @@ footer{
         }
     }
     nav{
-        height: 31vh;
+        height: 51vh;
         display: block;
         padding: 15px;
         margin-bottom: 30px;
@@ -143,6 +143,11 @@ footer{
                 text-align: center;
             }
             & ul{
+                display: block;
+                text-align: center;
+                & li{
+                    margin: 10px 0;
+                }
                 & li:hover{
                     padding: 10px;
                     font-size: 15px;
